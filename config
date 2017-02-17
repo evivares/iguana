@@ -1,0 +1,7 @@
+[core]
+	bare = true
+	filemode = true
+	precomposeunicode = false
+	autocrlf = false
+[core]
+	repositoryformatversion = 0
