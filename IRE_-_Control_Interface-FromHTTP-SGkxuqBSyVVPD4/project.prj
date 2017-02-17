@@ -1,0 +1,18 @@
+{
+    "LocalDependencies": [
+        "Webpage.lua"
+    ],
+    "LuaDependencies": [
+        "IRE_RuleStore",
+        "gsLog",
+        "gsLogEvent",
+        "gsmos"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

@@ -1,0 +1,24 @@
+<channel
+   name=".AHN Geospatial Tool"
+   guid="3CC4AA2511A0DAD08263CF0E1502A1B7"
+   description="Used to load the GoldenProviderList, GoldenBio, GoldenMX, Location and LocationNoPCP text files and Regeocoding of Lat/Lng every 30 days."
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="AHN_Geospatial_Tool-To-NuB34L1M4NBr6y"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="8EB58D0280ECFD2FFAD8685ECD54FFB8"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="AHN_Geospatial_Tool-From-aRjf3CliNp72pn"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save"
+      poll_time="3600000">
+   </from_mapper>
+</channel>

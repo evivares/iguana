@@ -1,0 +1,5 @@
+gsmos = {}
+
+gsmos.token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1laWQiOiIxIiwic3ViIjoiMSIsImlzcyI6IlRva2VuSXNzdWVyIiwiYXVkIjoiMDA1ZjljNTcxZDgwNGMyNDgzYWJjODU3NTFiNzRkYmEiLCJleHAiOjIwNzgzMzQxOTEsIm5iZiI6MTQ0NzE4MjE5MX0.E4R9okOzJ0idxlHr0ehOrBK7fqEI2SPVhoCqWMYMm4c'
+
+return gsmos

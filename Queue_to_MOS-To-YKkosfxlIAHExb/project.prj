@@ -1,0 +1,28 @@
+{
+    "LocalDependencies": [
+        "guardiansolutions.key",
+        "guardiansolutions.pem"
+    ],
+    "LuaDependencies": [
+        "amplefi",
+        "gsLog",
+        "gsLogEvent",
+        "gsmos",
+        "gsmos_appointment",
+        "gsmos_hl7message",
+        "gsmos_order",
+        "gsmos_patient",
+        "gsmos_results",
+        "gsmos_screening",
+        "gsmos_visit"
+    ],
+    "OtherDependencies": [
+        "cts.vmd"
+    ],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

@@ -1,0 +1,24 @@
+<channel
+   name=".AHN Send Review File"
+   guid="E49EA51DE13EAF507527431317D914E1"
+   description=""
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="AHN_Send_Review_File-To-mAurK0805AMqlb"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="5EA7B68B8A00F196D3E9AE7D7A87B90A"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="AHN_Send_Review_File-From-HjLyVuapsMLShY"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save"
+      poll_time="14400000">
+   </from_mapper>
+</channel>

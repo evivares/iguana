@@ -1,0 +1,19 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "IRE_CustomField",
+        "IRE_Processor",
+        "IRE_RuleStore",
+        "gsLog",
+        "gsLogEvent"
+    ],
+    "OtherDependencies": [
+        "HL7_2.3.vmd"
+    ],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

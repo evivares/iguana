@@ -1,0 +1,24 @@
+<channel
+   name=".HEC Sync User Data"
+   guid="ADBE44BD53574A0FEEEF3F4D708109B4"
+   description=""
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="HEC_Sync_User_Data-To-XfN0MmYHCgIzM5"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="E322329E741FB67141AFAD3454B95AEA"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="HEC_Sync_User_Data-From-HkAd3kr63UKFtR"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save"
+      poll_time="86400000">
+   </from_mapper>
+</channel>

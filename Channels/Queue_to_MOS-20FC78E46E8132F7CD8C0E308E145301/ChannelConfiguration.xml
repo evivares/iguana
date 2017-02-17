@@ -1,0 +1,19 @@
+<channel
+   name="Queue to MOS"
+   guid="20FC78E46E8132F7CD8C0E308E145301"
+   description="From channel &quot;Consensus to Queue&quot; to MOS database"
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Queue_to_MOS-To-YKkosfxlIAHExb"
+      commit_id="266ed3581898313e49ae302451bf634e1b34764d"
+      commit_comment="save">
+      <dequeue_list>
+         <dequeue
+            source_name="CCHHS HL7 Golf101 to Queue"
+            dequeue_guid="7ADFC1E00EF34A7494F06ABE72351B22"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

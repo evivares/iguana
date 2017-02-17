@@ -1,0 +1,24 @@
+<channel
+   name=".HEC User Activity"
+   guid="84695CFA58C74B259C6C3AEBF1A4C6C4"
+   description=""
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="HEC_User_Activity-To-jsRVGuP1yBxLh3"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="1CDB8E4D27BCF93D6DB4820AEBFBF21D"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="HEC_User_Activity-From-mBAd3bLTzqtKeP"
+      commit_id="12080fc6104640b300be886de028f7cb1a473e5c"
+      commit_comment="save"
+      poll_time="300000">
+   </from_mapper>
+</channel>

@@ -1,0 +1,14 @@
+<channel
+   name="IRE - HL7 Queue to DB"
+   guid="9161447EC6DE7D27C64648BBCD59161C"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="IRE_-_HL7_Queue_to_Patient_DB-To-WgXAmoTQuVO3no"
+      commit_id="c3353d968c43d7a3ac6423b26ee933ff570ffa1a"
+      commit_comment="Saved">
+   </to_mapper>
+   <from_channel/>
+</channel>

@@ -1,0 +1,25 @@
+<channel
+   name="CCHHS HL7 Golf101 to Queue"
+   guid="C3A25112B47C87F8F5549314FE0CBECD"
+   description="Inbound from GOLF101"
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="Consensus_to_Queue-FromHTTP-ldHeWVvowmaux9"
+      commit_id="0b694d23157891a9325d0ad370773d0fae39e5fb"
+      commit_comment="JSON response with request length"
+      mapper_url_path="mos"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

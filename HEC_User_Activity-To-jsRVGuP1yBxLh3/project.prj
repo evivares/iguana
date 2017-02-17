@@ -1,0 +1,14 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "amplefi",
+        "node"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

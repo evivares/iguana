@@ -1,0 +1,24 @@
+<channel
+   name=".HEC Eligibility File Load"
+   guid="55914B2A1AC5DD261F6B59F93843B0C0"
+   description=""
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="HEC_Eligibility_File_Load-To-V1BFVIncfrD5Lv"
+      commit_id="dcfbda7d5af21a9dfb2ffb1de0ede2564d508774"
+      commit_comment="check for nil jsn">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="A1DA84704843B8D20CC771EF43B609E3"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="HEC_Eligibility_File_Load-From-kUIA9OthVJUpT9"
+      commit_id="53cfe51b2170fd056a2eb256de790200377c0d40"
+      commit_comment="save"
+      poll_time="43200000">
+   </from_mapper>
+</channel>

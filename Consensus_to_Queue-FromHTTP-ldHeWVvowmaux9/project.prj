@@ -1,0 +1,24 @@
+{
+    "LocalDependencies": [
+        "golf101_iguana6.crt",
+        "golf101_iguana6.key",
+        "guardiansolutions.crt",
+        "guardiansolutions.key",
+        "webpage.lua"
+    ],
+    "LuaDependencies": [
+        "gsCrypt",
+        "gsLog",
+        "gsLogEvent",
+        "gsmos"
+    ],
+    "OtherDependencies": [
+        "cts.vmd"
+    ],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

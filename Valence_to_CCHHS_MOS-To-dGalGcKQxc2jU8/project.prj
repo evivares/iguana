@@ -1,0 +1,21 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "amplefi",
+        "valence",
+        "valence_eligibility",
+        "valence_empanelment",
+        "valence_medicalhome",
+        "valence_priorauth",
+        "valence_provider",
+        "valence_riskscores",
+        "valence_waiver"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1487341291",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

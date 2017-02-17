@@ -1,0 +1,12 @@
+{
+    "Samples": [
+        {
+            "Message": "[{\"FileType\":\"medicalhome\"},{\"rowpos\":\"2\"},{\"FileName\":\"Valence_CCC_MedicalHome_20160701_v1.0.txt\"},{\"payload\":\"1|1003009358001|KODUMURI VAMSI|SINAI MEDICAL GROUP|7732576840|2653 W OGDEN AVE|FL 3|CHICAGO|IL|60608|1003009358\"}]\r",
+            "Name": "medical home-2"
+        },
+        {
+            "Message": "[{\"FileType\":\"medicalhome\"},{\"rowpos\":\"rowend\"},{\"FileName\":\"Valence_CCC_MedicalHome_20160701_v1.0.txt\"},{\"payload\":\"\"}]\r",
+            "Name": "medicalhome-rowend"
+        }
+    ]
+}
